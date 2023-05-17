@@ -25,7 +25,7 @@
         <div>
             <label for="subject">Subject</label>
             <select id="subject">
-                <option hidden>Select</option>
+                <option value="" hidden>Select</option>
                 <option>Frontend</option>
                 <option>Backend</option>
                 <option>Full Stack</option>
@@ -35,10 +35,10 @@
             <label for="message">Pesan</label>
            <textarea id="message" cols="10" rows="5"></textarea>
         </div>
-       <button>submit</button>
+       <button type="button" onclick="submitData()">submit</button>
         
     </form>
 </div>
-    
+<script src="script.js"></script>
 </body>
 </html>
